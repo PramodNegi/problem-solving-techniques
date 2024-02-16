@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-02-16T08:31:06.716Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GJo-R5XViOlX-pozsdUC" version="23.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-16T08:38:15.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="4jPUclYoCCOo5SaKcrZy" version="23.1.4" type="github">
   <diagram name="Page-1" id="1FxUNLM0ZQBhtjaMvIoO">
     <mxGraphModel dx="1242" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="y6QrF3_BXdk66LzoavTm-5" value="«interface»&lt;br&gt;&lt;b&gt;Job (Quartz)&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="230" width="110" height="30" as="geometry" />
+        <mxCell id="y6QrF3_BXdk66LzoavTm-5" value="«interface»&lt;br&gt;&lt;b&gt;Job (Quartz)&lt;/b&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="65" y="230" width="165" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y6QrF3_BXdk66LzoavTm-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="y6QrF3_BXdk66LzoavTm-5">
+        <mxCell id="y6QrF3_BXdk66LzoavTm-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="y6QrF3_BXdk66LzoavTm-7" target="y6QrF3_BXdk66LzoavTm-5">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="145" y="320" as="sourcePoint" />
             <mxPoint x="240" y="320" as="targetPoint" />
@@ -21,19 +21,36 @@
         <mxCell id="y6QrF3_BXdk66LzoavTm-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="y6QrF3_BXdk66LzoavTm-7">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="y6QrF3_BXdk66LzoavTm-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="y6QrF3_BXdk66LzoavTm-7">
+        <mxCell id="y6QrF3_BXdk66LzoavTm-11" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="y6QrF3_BXdk66LzoavTm-7">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="145" y="430" as="sourcePoint" />
             <mxPoint x="220" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y6QrF3_BXdk66LzoavTm-12" value="BaseJob" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="y6QrF3_BXdk66LzoavTm-12" value="QueueRoutingJob" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="430" width="160" height="34" as="geometry">
             <mxRectangle x="65" y="320" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="y6QrF3_BXdk66LzoavTm-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="y6QrF3_BXdk66LzoavTm-12">
           <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="y6QrF3_BXdk66LzoavTm-14" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.463;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="y6QrF3_BXdk66LzoavTm-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="520" as="sourcePoint" />
+            <mxPoint x="144" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6QrF3_BXdk66LzoavTm-15" value="QueueRoutingEngine" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="520" width="160" height="34" as="geometry">
+            <mxRectangle x="65" y="320" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y6QrF3_BXdk66LzoavTm-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="y6QrF3_BXdk66LzoavTm-15">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="y6QrF3_BXdk66LzoavTm-17" value="performBatchApplicationRouting(brandId)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="470" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
