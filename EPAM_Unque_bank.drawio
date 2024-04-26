@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T16:14:24.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="N6WF077ij7O1TsY3n4HA" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T16:15:44.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="kLQMAeV9LBtAs-ku5pPs" version="24.3.0" type="github">
   <diagram name="Page-1" id="BaQHBkwzi6IdDCzmVhCp">
     <mxGraphModel dx="2140" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -316,7 +316,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e2NCnurvVygLB4MhuIjI-95" value="AWS Incognito" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="e2NCnurvVygLB4MhuIjI-95" value="Secret Data Store" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="720" y="160" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
