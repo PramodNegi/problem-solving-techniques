@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T11:22:58.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="23sObbLuYGuPpW32J6VV" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T11:58:53.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jMcHsAiCl7Q8T1VMvaYV" version="24.5.4" type="github">
   <diagram name="Page-1" id="L_krOU00MxawSAh70pyl">
     <mxGraphModel dx="1050" dy="557" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="FzPyVAdeT0ASTcPWLuVl-22" value="IAM Policy (Accesses) : &lt;b&gt;SRE&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="592" y="70" width="173.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FzPyVAdeT0ASTcPWLuVl-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.452;entryY=-0.053;entryDx=0;entryDy=0;flowAnimation=1;curved=1;entryPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" source="FzPyVAdeT0ASTcPWLuVl-21" target="FzPyVAdeT0ASTcPWLuVl-20" edge="1">
+        <mxCell id="FzPyVAdeT0ASTcPWLuVl-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.452;entryY=-0.053;entryDx=0;entryDy=0;flowAnimation=1;curved=1;entryPerimeter=0;fillColor=#008a00;strokeColor=#005700;" parent="1" source="FzPyVAdeT0ASTcPWLuVl-21" target="FzPyVAdeT0ASTcPWLuVl-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="765" y="490" as="sourcePoint" />
             <mxPoint x="815" y="440" as="targetPoint" />
@@ -82,19 +82,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FzPyVAdeT0ASTcPWLuVl-24" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+        <mxCell id="FzPyVAdeT0ASTcPWLuVl-24" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="240" as="sourcePoint" />
             <mxPoint x="475" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FzPyVAdeT0ASTcPWLuVl-25" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+        <mxCell id="FzPyVAdeT0ASTcPWLuVl-25" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="524.5" y="240" as="sourcePoint" />
             <mxPoint x="524.5" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FzPyVAdeT0ASTcPWLuVl-26" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+        <mxCell id="FzPyVAdeT0ASTcPWLuVl-26" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;fillColor=#008a00;strokeColor=#005700;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="545" y="239" as="sourcePoint" />
             <mxPoint x="575" y="269" as="targetPoint" />
@@ -112,7 +112,7 @@
         <mxCell id="CXZL4-1KxXEvNb-ebIl2-8" value="IAM Policy (Accesses) : &lt;b&gt;Audit&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="348" y="70" width="202.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CXZL4-1KxXEvNb-ebIl2-10" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;curved=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+        <mxCell id="CXZL4-1KxXEvNb-ebIl2-10" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;curved=1;fillColor=#0050ef;strokeColor=#FF3333;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="143" as="sourcePoint" />
             <mxPoint x="356" y="238" as="targetPoint" />
@@ -120,6 +120,18 @@
               <mxPoint x="388" y="146" />
               <mxPoint x="352" y="170" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CXZL4-1KxXEvNb-ebIl2-11" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;fillColor=#dae8fc;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="311.25" y="269" as="sourcePoint" />
+            <mxPoint x="273.25" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CXZL4-1KxXEvNb-ebIl2-12" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="404" y="269" as="sourcePoint" />
+            <mxPoint x="440" y="293" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
